@@ -5,7 +5,7 @@ import Input from '../../shared/components/FormElements/Input'
 
 const NewPlace = props => {
   return( <form className="place-form">
-     <Input element='input' type="text" label="Title" /> 
+     <Input element='input' type="text" label="Here is a place" validators={[]} errorText="Please, enter a valid title"/> 
   </form>);
 };
 
